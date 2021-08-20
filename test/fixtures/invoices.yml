@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  odoo_id: 1
+  name: MyString
+  partner_id: MyString
+  partner_name: MyString
+  user_id: MyString
+  user_name: MyString
+  country_code: MyString
+  state: MyString
+  amount_total_signed: 1.5
+  payment_state: MyString
+  invoice_date: MyString
+
+two:
+  odoo_id: 1
+  name: MyString
+  partner_id: MyString
+  partner_name: MyString
+  user_id: MyString
+  user_name: MyString
+  country_code: MyString
+  state: MyString
+  amount_total_signed: 1.5
+  payment_state: MyString
+  invoice_date: MyString

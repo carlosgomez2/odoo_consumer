@@ -1,0 +1,13 @@
+<div style="margin-top: 40px; margin-left: 60px; margin-right: 60px;">
+  <h1>Metric dashboard</h1>
+  <br>
+  
+  <h2>Income by day</h2>
+  <%= line_chart @income_by_day, colors: ["#b00", "#666"], xtitle: "Date", ytitle: "Income" %>
+  <br>
+  
+  <h2>Best partners</h2>
+  <%= column_chart @best_partners, stacked: true, colors: ["#FFCE00", "#1DCD12"], xtitle: "Partner", ytitle: "Income", prefix: "$", thousands: ",", decimal: "." %>
+  <br>
+</div>
+
